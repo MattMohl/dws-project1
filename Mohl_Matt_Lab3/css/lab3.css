@@ -7,23 +7,16 @@ body {
 	width: 960px;
 }
 
-#nav	{
-	color: cyan;
-}
-
 #nav a	{
 	text-decoration: none;
-	border-bottom: 1px solid cyan;
+	border-bottom: 1px solid white;
+	color: white;
 }
 
 #nav li	{
 	display: inline;
 	float: right;
 	margin-right: 22px;
-}
-
-#gallery	{
-	
 }
 
 #gallery li	{
@@ -36,6 +29,10 @@ body {
 	float: right;
 }
 
+#sidebar li	{
+	list-style-type: none;
+}
+
 #liger_jpg	{
 }
 
@@ -46,8 +43,14 @@ body {
 	clear: both;
 }
 
-#main-content_b	{
-	margin-right: 10px;
-	clear: both;
-	width: 630px;
+body	{
+	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+}
+
+#see_also	{
+	float: right;
+	margin-bottom: 20px;
+	border-bottom: 1px solid;
+	overflow: hidden;
+	width: 310px;
 }
