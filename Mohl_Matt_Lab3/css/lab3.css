@@ -1,0 +1,53 @@
+body {
+	background-color: #2b9e44;
+	margin: 0 auto;
+	width: 960px;
+}
+#page_wrapper {
+	width: 960px;
+}
+
+#nav	{
+	color: cyan;
+}
+
+#nav a	{
+	text-decoration: none;
+	border-bottom: 1px solid cyan;
+}
+
+#nav li	{
+	display: inline;
+	float: right;
+	margin-right: 22px;
+}
+
+#gallery	{
+	
+}
+
+#gallery li	{
+	display: inline;
+}
+
+#sidebar	{
+	margin-left: 10px;
+	width: 310px;
+	float: right;
+}
+
+#liger_jpg	{
+}
+
+#main-content_a	{
+	margin-right: 10px;
+	float: left;
+	width: 630px;
+	clear: both;
+}
+
+#main-content_b	{
+	margin-right: 10px;
+	clear: both;
+	width: 630px;
+}
