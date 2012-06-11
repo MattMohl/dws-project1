@@ -1,0 +1,75 @@
+#cta	{
+	width: 960px;
+	font-size: 10px;
+	float: left;
+	width: 440px;
+	margin-left: 20px;
+}
+
+body	{
+	margin: 0 auto;
+	width: 960px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	
+    background: url(../images/RZR_TronKB_Wht/RZR_Tron_KB_MainView.png) no-repeat 2% 0%, 
+    -moz-linear-gradient(top, #000 28%, #63c9d8 50%);
+}
+
+#specs{
+	width: 465px;
+}
+
+#overview{
+	width: 465px;
+	float: left;
+}
+
+#features{
+	margin-left: 30px;
+	width: 465px;
+	float: right;
+}
+
+#keyboard_main{
+	float: left;
+	clear: left;
+}
+
+.button	{
+	padding: 5px 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: -moz-linear-gradient(top, #000, #c0c0c0);
+	float: right;
+	margin-right: 30px;
+}
+
+#gallery li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 20px;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+a{
+	color: #f6b132;
+}
+
+a:active{
+	color: #ccc;
+}
+
+#gallery{
+
+}
+
+footer{
+	border-top: 1px solid #fff;
+	padding-top: 20px;
+}
