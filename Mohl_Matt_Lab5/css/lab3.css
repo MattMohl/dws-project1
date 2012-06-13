@@ -1,0 +1,143 @@
+body {
+	background-color: #2b9e44;
+	margin: 0 auto;
+	max-width: 960px;
+	font-family: 'Metrophobic', Arial, serif; font-weight: 400;
+	margin: 0% 0%;
+}
+
+#nav a	{
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+#nav li	{
+	display: inline;
+	float: right;
+	margin-right: 2.291667%;
+}
+
+#gallery ul{
+	margin: 0;
+	padding: 0;
+}
+
+#gallery{
+	margin:0;
+	padding: 0;
+	border: 5px solid #fff;
+	width: 100%;
+}
+
+#gallery img{
+	max-width: 33.333333%;
+}
+
+#gallery li	{
+	display: inline;
+	width: 33.33333%;
+	margin: 0% 5%;
+}
+
+#liger_jpg{
+	width: 80.645161%;
+}
+
+#liger_jpg img{
+	max-width: 100%;
+}
+
+#sidebar	{
+	margin-left: 1.0416667%;
+	width: 32.291667%;
+	float: right;
+}
+
+#main-content_a	{
+	margin-right: 1.0416667%;
+	float: left;
+	width: 65.625%;
+	clear: both;
+}
+
+#see_also	{
+	float: right;
+	margin-bottom: 2.0833334%;
+	border-bottom: 1px solid;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+/*	Media Queries*/
+
+
+@media screen and (min-width: 761px) and (max-width: 960px){
+
+	body{
+		background-color: #509cff;
+		max-width: 100%;
+		margin: 0 1.041667%;
+	}
+
+	#gallery li{
+		display: block;
+		margin: 0;
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 760px){
+
+	nav {
+		float: none;
+	}
+	#sidebar{
+		clear: left;
+		float: none;
+		width: 100%;
+	}
+
+	#see_also{
+		float: none;
+		clear: both;
+	}
+
+	body{
+		background-color: #b0f;
+		margin: 0 1.041667%;
+		width: 100%;
+		border: 3px solid orange;
+	}
+
+/*	Here's where things get very weird. Me, Mark, Alyssa, and another WDD student
+	tried debugging this for a few hours and couln't figure out why this block
+	won't apply to the main content. Very mysterious.
+*/	
+	#main_content_a{
+		float: none;
+		clear: both;
+		border: 3px solid cyan;
+		width: 100%;
+		background-color: #fff;
+	}
+
+	p{
+		width: 100%;
+		border: 3px solid red;
+	}
+
+	h1, h2{
+		border: 3px dotted orange;
+	}
+
+}
+
+@media screen and (min-width: 0) and (max-width: 560px){
+
+
+
+}
+
